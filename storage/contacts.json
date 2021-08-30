@@ -1,0 +1,105 @@
+{
+    "contacts": [
+        {
+            "id": "1",
+            "name": "Roman Malolin",
+            "age": 29
+        },
+         {
+            "id": "2",
+            "name": "Dmitriy Limasov",
+            "age": 29
+        },
+         {
+            "id": "3",
+            "name": "Ivan Vorotnev",
+            "age": 27
+        },
+         {
+            "id": "4",
+            "name": "Andrey Vorotnev",
+            "age": 28
+        },
+         {
+            "id": "5",
+            "name": "Artem Ekaterinenko",
+            "age": 26
+        },
+         {
+            "id": "6",
+            "name": "Igor Zuev",
+            "age": 22
+        },
+         {
+            "id": "7",
+            "name": "Maria Korovina",
+            "age": 24
+        },
+         {
+            "id": "8",
+            "name": "Margarita Akinitova",
+            "age": 27
+        },
+         {
+            "id": "9",
+            "name": "Boris Zuev",
+            "age": 48
+        },
+         {
+            "id": "10",
+            "name": "Vladimir Grishaev",
+            "age": 31
+        },
+         {
+            "id": "11",
+            "name": "Vladimir Rozko",
+            "age": 14
+        },
+         {
+            "id": "12",
+            "name": "Grisha Zuev",
+            "age": 47
+        },
+         {
+            "id": "13",
+            "name": "Maria Vorotneva",
+            "age": 18
+        },
+         {
+            "id": "14",
+            "name": "Artem Podolskiy",
+            "age": 55
+        },
+         {
+            "id": "15",
+            "name": "Emma Malolina",
+            "age": 49
+        },
+         {
+            "id": "16",
+            "name": "Andrey Podolskiy",
+            "age": 35
+        },
+         {
+            "id": "17",
+            "name": "Viktor Kram",
+            "age": 20
+        },
+         {
+            "id": "18",
+            "name": "Viktor Grechkin",
+            "age": 17
+        },
+         {
+            "id": "19",
+            "name": "Ludmila Grechkina",
+            "age": 48
+        },
+         {
+            "id": "20",
+            "name": "Anastasia Sergeeva",
+            "age": 23
+        }
+
+    ]
+}

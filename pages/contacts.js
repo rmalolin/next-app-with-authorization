@@ -1,6 +1,7 @@
 import { useSession, getSession } from "next-auth/client";
 import AuthInfo from "../components/AuthInfo";
 import { Container, Heading, Text, Divider } from "@chakra-ui/react";
+import Contacts from "../components/Contacts";
 
 export default function Page() {
   const [session, loading] = useSession();
@@ -24,6 +25,7 @@ export default function Page() {
       <AuthInfo />
       <Divider mt="6" borderColor="facebook.800" />
       <Heading mt="2">Contacts</Heading>
+      <Contacts />
     </Container>
   );
 }
