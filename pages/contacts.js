@@ -24,12 +24,13 @@ export default function Page() {
     <Container maxW="3xl" pt="4">
       <AuthInfo />
       <Divider mt="6" borderColor="facebook.800" />
-      <Heading mt="2">Contacts</Heading>
+
       <Contacts />
     </Container>
   );
 }
 
+// If no session exists, redirect to Home Page
 export async function getServerSideProps(context) {
   const session = await getSession(context);
   if (!session) {

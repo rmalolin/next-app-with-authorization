@@ -26,7 +26,7 @@ export default function AuthInfo({ providers }) {
               signIn(providers.github.id);
             }}
           >
-            Sign in with GitHub
+            Sign In with GitHub
           </Button>
         </Flex>
       )}
@@ -60,7 +60,7 @@ export default function AuthInfo({ providers }) {
               signOut();
             }}
           >
-            Sign out
+            Sign Out
           </Button>
         </Flex>
       )}

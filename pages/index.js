@@ -16,6 +16,7 @@ export default function Page({ providers }) {
   );
 }
 
+// If session exists, redirect to Contacts Page
 export async function getServerSideProps(context) {
   const session = await getSession(context);
   const providers = await getProviders();
