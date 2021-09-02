@@ -1,8 +1,9 @@
 import { useSession, getSession } from "next-auth/client";
 import AuthInfo from "../components/AuthInfo";
-import { Container, Heading, Text, Divider } from "@chakra-ui/react";
+import { Container, Text, Divider } from "@chakra-ui/react";
 import Contacts from "../components/Contacts";
 
+// Contacts page for authorized users
 export default function Page() {
   const [session, loading] = useSession();
 

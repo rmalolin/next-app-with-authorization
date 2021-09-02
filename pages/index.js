@@ -2,6 +2,7 @@ import { Container, Heading, Text, Divider } from "@chakra-ui/react";
 import { getSession, getProviders } from "next-auth/client";
 import AuthInfo from "../components/AuthInfo";
 
+// Home page
 export default function Page({ providers }) {
   return (
     <Container maxW="3xl" pt="4">

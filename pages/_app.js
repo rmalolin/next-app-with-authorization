@@ -2,6 +2,7 @@ import { Provider } from "next-auth/client";
 import { ChakraProvider, ColorModeProvider } from "@chakra-ui/react";
 import { extendTheme } from "@chakra-ui/react";
 
+// Chakra extendTheme for Divider (chakra component)
 const theme = extendTheme({
   colors: {
     primary: {

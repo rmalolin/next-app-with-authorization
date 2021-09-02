@@ -8,6 +8,7 @@ import {
   Heading,
 } from "@chakra-ui/react";
 
+// Component to display User is authorized or not
 export default function AuthInfo({ providers }) {
   const [session, loading] = useSession();
 
@@ -21,6 +22,7 @@ export default function AuthInfo({ providers }) {
           <Button
             colorScheme="facebook"
             size="lg"
+            boxShadow="xl"
             onClick={(e) => {
               e.preventDefault();
               signIn(providers.github.id);
@@ -39,6 +41,7 @@ export default function AuthInfo({ providers }) {
                 size="xl"
                 mr="4"
                 showBorder
+                boxShadow="xl"
                 borderColor="facebook.800"
                 src={session.user.image}
                 name={session.user.name}
@@ -55,6 +58,7 @@ export default function AuthInfo({ providers }) {
           <Button
             colorScheme="facebook"
             size="lg"
+            boxShadow="xl"
             onClick={(e) => {
               e.preventDefault();
               signOut();
