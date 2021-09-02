@@ -1,7 +1,14 @@
 import contacts from "../../storage/contacts.json";
 import fs from "fs";
+import { getSession } from "next-auth/client";
 
 export default async (req, res) => {
+  const session = await getSession({ req });
+
+  if (!session) {
+    return res.status(403).json({ error: "Access forbiden" });
+  }
+
   switch (req.method) {
     // Delete contact
     case "DELETE":
@@ -52,7 +59,7 @@ export default async (req, res) => {
         JSON.stringify(newContactsEdit, null, 4)
       );
 
-      return res.status(200).json(newEditContacts);
+      return res.status(200).json(newContactsEdit);
 
     default:
       res.status(405).end(`Method ${req.method} Not Allowed`);
