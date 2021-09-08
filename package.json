@@ -12,7 +12,8 @@
   "scripts": {
     "dev": "next",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "deploy": "npm run build && npm run start"
   },
   "author": "Iain Collins <me@iaincollins.com>",
   "contributors": [
